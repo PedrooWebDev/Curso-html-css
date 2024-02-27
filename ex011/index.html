@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site, e mudar o tamanho do navegador pra ver a mágica acontecer</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/300x300.jpg" type="image/jpg">
+        <source media="(max-width: 900px)" srcset="imagens/700x700.jpg" type="image/jpg">
+        <img src="imagens/1000x1000.jpg" alt="Imagem flexível">
+    </picture>
+    <hr>
+    <h1>Reproduzindo áudio</h1>
+    <p>Agora to aprendendo a reproduzir áudio em HTML 5.</p>
+   
+    <audio preload="metadata" controls>
+        <source src="midia/music.mp3" type="audio/mpeg">
+        <p>Indelizmente seu navegador não consegue reproduzir o áudio, <a href="midia/music.mp3" type="audio/mpeg">clique aqui</a> para baixar o mp3</p>
+    </audio>
+</body>
+</html>

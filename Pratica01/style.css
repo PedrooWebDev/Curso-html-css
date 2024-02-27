@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logomarca{
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.336)
+}
+
+.interface ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.interface-left ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.interface-left ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.interface-left ul li{
+    padding: 0px 10px;
+}
+
+.interface ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+}

@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(files/fontes/idroid.otf) format(opentype);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+body{
+    background-color: #4fd48bb6;
+}
+
+header{
+    background-image: linear-gradient(180deg, #37C678, #10271F);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.938);
+}
+
+header > .texto-prin > .Curiosidades{
+    font-size: 30px;
+}
+
+header > .texto-prin > .Curiosidades, .tudo-aquilo{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-shadow: 2px 1px 4px black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header > .interface {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 1px;
+}
+
+header > .interface > nav > a:hover{
+    background-color:#10271F;
+    border-radius: 5px;
+}
+
+header > .interface > nav > a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    transition-duration: .2s;
+}
+
+
+main{ 
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.411);
+    padding: 5px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+main > .texto-grande-main > picture > img{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+main > .texto-grande-main > .img-pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main > .texto-grande-main > .video{
+    background-color: #10271F;
+    margin-bottom: 20px;
+    margin: 0px -5px;
+    padding: 20px;
+
+    padding-bottom: 55%;
+    position: relative;
+}
+
+main > .texto-grande-main .video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main > .texto-main h2{
+    font-family: 'android';
+    color: #1b553b;
+    padding: 15px;
+}
+
+main > .texto-grande-main p{
+    padding: 10px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 15px;
+    text-indent: 10px;
+    line-height: 1.3em;
+}
+
+main > .texto-grande-main span{
+    text-decoration: none;
+    color: #1d9955;
+    font-weight: bold;
+}
+
+main > .texto-grande-main p a{
+    text-decoration: none;
+    color: #1d9955;
+    font-weight: bold;
+}
+
+main > .texto-grande-main .primeira-v{
+    font-family: 'android';
+    color: #29835a;
+    padding-left: 12px;
+    background-image: linear-gradient(90deg, #37c6777c, #fff);
+    font-size: 19px;
+}
+
+
+main > .texto-grande-main > .final01 {
+    display: block;
+    background-color: #78c299;
+    margin: auto;
+    width: 95%;
+    border-radius: 10px;
+}
+
+main > .texto-grande-main > .final01{
+    color: white;
+    background-color: #1b553b;
+    border-radius: 12px;
+    padding: 0px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.26);
+    margin-top: 5px;
+}
+
+main > .texto-grande-main > .final01 h2{
+    font-size: 17px;
+    padding: 8px;
+    font-weight: bolder;
+}
+
+main > .texto-grande-main > .final01 > .final02{
+    background-color: #37C678;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main > .texto-grande-main > .final01 > .final02 > p{
+    color: black;
+}
+
+main > .texto-grande-main > .final01 > .final02 > .android-list{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+footer{
+    background-color: #10271F;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+footer p{
+   color: white;
+   text-align: center;
+   margin: 2px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #37C678;
+}

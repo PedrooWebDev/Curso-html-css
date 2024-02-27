@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+        }
+
+        .top > .div-in{
+            display: none;
+        }
+
+        .top:hover > .div-in {
+            display: block;
+        }
+
+        div:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <p>Teste passar o mouse por cima</p>
+        <div class="div-in"><p>oii</p></div>
+    </div>
+    <div class="top">
+        <p>Teste passar o mouse por cima</p>
+        <div class="div-in"><p>oii dnv</p></div>
+    </div>
+    <div class="top">
+        <p>Teste passar o mouse por cima</p>
+        <div class="div-in"><p>oii tbm</p></div>
+    </div>
+</body>
+</html>
