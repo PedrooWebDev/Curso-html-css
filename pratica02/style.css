@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: #000000a1;
+    border: 2px solid #0000001f;
+    border-radius: 15px;
+    margin: auto;
+    width: 70%;
+    height: 50%; 
+    margin-top: 100px;
+    backdrop-filter: blur(14px);
+}
+
+main > section > h1{
+    color: #f5f5f5;
+    font-size: 32px;
+    text-align: center;
+    font-family: Modric;
+    font-weight: 600;
+    padding: 15px;
+    margin: 5px;
+}
+
+main > section > p{
+    color: #EEB1D3;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    font-family: "Salsa", cursive;
+    font-weight: 800;
+}
+
+body{
+    background-image: url(imagens/fundo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
